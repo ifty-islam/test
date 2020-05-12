@@ -1,0 +1,79 @@
+body{
+    margin:0;
+}
+img{
+    border-radius:25px 25px 0px 0px;
+    height: 30%;
+    padding: 10px;
+}
+.pic{
+    margin: auto;
+    display: inline;
+    position: relative;
+}
+.content{
+    text-align: center;
+}
+.pro{
+    position: absolute;
+    top:15%;
+    left:8%;
+    width: 80%;
+    margin: 0 1 2 5 8;
+    max-width: 50%;
+        
+}
+.pro>img{
+    border-radius: 50%;
+    position: relative;
+    top:50%;
+    left:35%;
+    width: 25%;
+    height: auto;
+    background-color: white;
+    padding: 3px;
+    border: 3px solid blue;
+    box-shadow: 0 0 2px #ddd;
+}
+.ifty{
+    margin-top: 13%;
+    font-family: sans-serif;
+    clear: both;
+}
+.moto{
+    font-family: sans-serif;
+    opacity: 0.7;
+    clear: both;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+.btn{
+    display: inline-block;
+}
+.mess{
+    background-color: blue;
+    margin: 10 auto;
+    border-radius: 3px;
+    padding: 5px 55px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+.mess img{
+    margin: 0 20 0 10;
+    width: 20px;
+    height: 20px;
+    padding: 0 1 0 0;
+}
+.mess2{
+    background-color: gray;
+    margin: 1 auto;
+    border-radius: 3px;
+    padding: 5px 19px;
+    display: inline-block;
+    font-size: 20px;
+    opacity: 0.8;
+}
