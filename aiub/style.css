@@ -1,0 +1,50 @@
+body{
+    font-family: calibri;
+    background-color: #efefef;
+}
+.text-pos{
+    text-align: center;
+    padding: 105 0;
+}
+.login{
+    width:75%;
+    max-width: 350px;
+    margin: auto;
+    border: 1px solid rgb(221, 221, 221);
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:#364347;
+    font-family: calibri;
+}
+.sign{
+    padding: 30 0 20 0;
+}
+input{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 10;
+    height: 30;
+    padding: 6 10px;
+    border: 2px solid lightblue;
+    border-radius: 2px;
+    opacity: .5;
+}
+.log-btn{
+    background-color: rgb(73, 127, 175);
+    width: 90%;
+    margin: 0 auto;
+    padding:10px 0;
+    font-size: 14px;
+    border-radius: 2px;
+    text-transform: capitalize;
+    color:white;
+    
+}
+.acc {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
