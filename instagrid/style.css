@@ -1,0 +1,76 @@
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #fafafa;
+}
+.header{
+    border-bottom: 0.5px solid gray;
+    padding: 10px 0px 15px 15px;
+}
+.header input{
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 2px;
+    height: 4%;
+}
+
+.header input{
+    text-align: center;
+    
+}
+.grid{
+    margin:0 200px;
+    display: grid;
+    min-height: 100;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+.dp{
+    padding: 15 0 0;
+}
+.dp img{
+    width: 150px;
+    border-radius: 50%;
+    margin: 0 0 0 30;
+    padding: 0 0 0 0;
+}
+.about{
+    grid-column-start: 2;
+    grid-column-end: 5;
+    padding: 15 0 0 0;
+    
+}
+.profile_name{
+    display: inline-block;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 30;
+    font-weight: 300;
+    padding: 0 10;
+}
+.follow{
+    display: inline-block;
+    border:1px solid gray;
+    border-radius: 2px;
+    padding: 2 15;
+    margin-right: 5px;
+}
+.set{
+    display: inline-block;
+    padding :1 5 0 5;
+    border: 1px solid gray;
+    border-radius: 2px; 
+    vertical-align:middle;
+}
+.set img{
+    padding: 0;
+}
+.det{
+    display: inline-block;
+    padding: 0 0 0 5;
+    margin-left: 
+}
+.photo{
+    background-color: aqua;
+    overflow: hidden;
+}
