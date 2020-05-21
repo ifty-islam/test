@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&display=swap');
+body{
+    background-color: #3B3C50;
+    
+}
+.header{
+    background-color: #21E7B6;
+    height: 100px;
+}
+.warper{
+    background-color: #3B3C50;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    position: relative;
+    top: -50px;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.image{
+    
+}
+.image > img{
+    height: 150px;
+    width: 150px;
+    padding-top: 20;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.name{
+    padding: 10px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.fol{
+    margin-top: 10;
+    margin-bottom: 10;
+    padding: 0 10 0 10;
+    border-right: 1px solid gray;
+    color:#21E7B6;
+}
+.pos{
+    color: #21E7B6;
+}
+.det{
+    padding: 5 10;
+}
