@@ -56,13 +56,11 @@ form{
     margin-top: 10px;
     margin-bottom: 10px;
     border: none;
-    background: rgb(9,9,121);
-   background: linear-gradient(39deg, rgba(9,9,121,1) 4%, rgba(0,212,255,1) 94%);
     color: wheat;
     font-size: 15px;
     border-radius: 10px;
     -webkit-animation: color-change-2x 1s linear infinite alternate both;
-	        animation: color-change-2x 1s linear infinite alternate both;
+    animation: color-change-2x 1s linear infinite alternate both;
 }
 @-webkit-keyframes color-change-2x {
   0% {
