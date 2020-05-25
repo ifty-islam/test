@@ -44,11 +44,8 @@ form{
 .forgot{
     padding: 10px;
 }
-@media only screen and (max-width:411px){
-    body{
-        background-color: aliceblue;
-    }
+@media screen and (max-width: 411px){
     .login-form{
-        
+        margin: 3%;
     }
 }
