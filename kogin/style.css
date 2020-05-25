@@ -1,10 +1,10 @@
 body{
     font-family: 'Quicksand', sans-serif;;
     background-color: #363840;
+    
 }
 .login-form{
-    background: rgb(42,42,199);
-background: linear-gradient(0deg, rgba(42,42,199,1) 0%, rgba(239,0,255,1) 100%);
+    background-color: ee4540;
     text-align: center;
     margin: 7% 35%;
     border-radius: 10px;
@@ -26,16 +26,7 @@ form{
     border-radius: 10px;
 }
 .form button{
-    width: 100%;
-    height: 3em;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: none;
-   background: rgb(9,9,121);
-   background: linear-gradient(39deg, rgba(9,9,121,1) 4%, rgba(0,212,255,1) 94%);
-    color: wheat;
-    font-size: 15px;
-    border-radius: 10px;
+    
 }
 .form .forgot a{
     text-decoration: none;
@@ -44,14 +35,48 @@ form{
 .forgot{
     padding: 10px;
 }
-@media screen and (max-width: 411px){
+@media screen and (max-width: 414px){
     .login-form{
         margin: 20vh 3% 0 3%;
     }
 }
 @media screen and (max-width:1024px){
     .login-form{
-        margin: 15%;
+        margin: 30%;
         margin-top: 20vh;
     }
+    form{
+    text-align: left;
+    padding: 10 10;
+    }
+}
+.but{
+    width: 100%;
+    height: 3em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background: rgb(9,9,121);
+   background: linear-gradient(39deg, rgba(9,9,121,1) 4%, rgba(0,212,255,1) 94%);
+    color: wheat;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-animation: color-change-2x 1s linear infinite alternate both;
+	        animation: color-change-2x 1s linear infinite alternate both;
+}
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: #b22cff;
+  }
 }
