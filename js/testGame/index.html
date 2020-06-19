@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0>
+  <script src="script.js"></script>
+  <link rel = "stylesheet"
+   type = "text/css"
+   href = "style.css" />
+  <title>Game</title>
+</head>
+<body>
+  <div id="scoreBoard">
+    <div id="you">
+      <p>You</p><br><p id="hscore">0</p>
+    </div>
+    <div id="you">
+      <p>Bot</p><br><p id="bscore">0</p>
+    </div>
+  </div>
+  <div class="container">
+    <div id="rock" onclick="rpsGame(this.id)">
+      <p>Rock</p>
+    </div>
+    <div id="paper" onclick="rpsGame(this.id)">
+      <p>Paper</p>
+    </div>
+    <div id="scissor" onclick="rpsGame(this.id)">
+      <p>Scissor</p>
+    </div>
+  </div>
+  <div id="container-2">
+    <div id="h">
+    </div>
+    <div id="b">
+    </div>
+  </div>
+  <div class="result">
+    <p id="res""></p>
+  </div>
+  <div class="btn">
+    <button type="reset" onclick="reset()">Reset</button>    
+  </div>
+</body>
+</html>
